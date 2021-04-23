@@ -14,7 +14,7 @@ TARGET=$2
 
 case ${SYSTEM} in
   cheyenne)
-    GROUP=p48503002
+    GROUP=ncar
     ;;
   gaea)
     GROUP=esrl
@@ -23,7 +23,7 @@ case ${SYSTEM} in
     GROUP=nems
     ;;
   jet)
-    GROUP=hfv3gfs
+    GROUP=h-nems
     ;;
   orion)
     GROUP=nems
