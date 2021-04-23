@@ -4,7 +4,8 @@ set -e
 
 if [[ $# -ne 2 ]]; then
   echo "Insufficient arguments provided:"
-  echo " - provide system name as first argument, possible values: cheyenne, gaea, hera, jet, orion"
+  #echo " - provide system name as first argument, possible values: cheyenne, gaea, hera, jet, orion"
+  echo " - provide system name as first argument, possible values: cheyenne, orion"
   echo " - provide target directory as second argument"
   exit 1
 fi
@@ -16,15 +17,15 @@ case ${SYSTEM} in
   cheyenne)
     GROUP=ncar
     ;;
-  gaea)
-    GROUP=esrl
-    ;;
-  hera)
-    GROUP=nems
-    ;;
-  jet)
-    GROUP=h-nems
-    ;;
+  #gaea)
+  #  GROUP=esrl
+  #  ;;
+  #hera)
+  #  GROUP=nems
+  #  ;;
+  #jet)
+  #  GROUP=h-nems
+  #  ;;
   orion)
     GROUP=nems
     ;;
