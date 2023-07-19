@@ -25,6 +25,10 @@ ALL_REMOTES = {
             'dusan'     : 'https://github.com/dusanjovic-noaa/ufs-weather-model',
             'jiande'    : 'https://github.com/jiandewang/ufs-weather-model',
             },
+        'AQM' : {
+            'noaa-emc'  : 'https://github.com/noaa-emc/AQM',
+            'dom'       : 'https://github.com/climbfuji/AQM',
+            },
         'FV3' : {
             'noaa-gsl'  : 'https://github.com/NOAA-GSL/fv3atm',
             'noaa-emc'  : 'https://github.com/NOAA-EMC/fv3atm',
@@ -76,6 +80,10 @@ ALL_REMOTES = {
             'dom'       : 'https://github.com/climbfuji/GFDL_atmos_cubed_sphere',
             'jun'       : 'https://github.com/junwang-noaa/GFDL_atmos_cubed_sphere',
             },
+        'MOM6-interface/MOM6' : {
+            'noaa-emc'  : 'https://github.com/NOAA-EMC/MOM6',
+            'dom'       : 'https://github.com/climbfuji/MOM6',
+            },
         'stochastic_physics' : {
             'noaa-psl'  : 'https://github.com/NOAA-PSD/stochastic_physics',
             'noaa-gsl'  : 'https://github.com/NOAA-GSL/stochastic_physics',
@@ -94,7 +102,8 @@ ALL_REMOTES = {
             'jcsda'     : 'https://github.com/jcsda/spack',
             'dom'       : 'https://github.com/climbfuji/spack',
             'alex'      : 'https://github.com/alexanderrichert-noaa/spack',
-            'cam'       : 'https://github.com/ulmononian/NOAA-EMC_spack',
+            'cam'       : 'https://github.com/ulmononian/spack',
+            'gmao'      : 'https://github.com/GMAO-SI-Team/spack',
             'spack'     : 'https://github.com/spack/spack',
             },
         'doc/CMakeModules' : {
@@ -137,6 +146,12 @@ ALL_REMOTES = {
         '.' : {
             'internal'  : 'https://github.com/jcsda-internal/ioda',
             'public'    : 'https://github.com/jcsda/ioda',
+            },
+        },
+    'jedi-bundle' : {
+        '.' : {
+            'internal'  : 'https://github.com/jcsda-internal/jedi-bundle',
+            'public'    : 'https://github.com/jcsda/jedi-bundle',
             },
         },
     'jedi-docs' : {
@@ -183,6 +198,11 @@ ALL_REMOTES = {
             'internal'  : 'https://github.com/jcsda-internal/solo',
             },
         },
+    'skylab' : {
+        '.' : {
+            'internal'  : 'https://github.com/jcsda-internal/skylab',
+            },
+        },
     'ufo' : {
         '.' : {
             'internal'  : 'https://github.com/jcsda-internal/ufo',
@@ -192,6 +212,12 @@ ALL_REMOTES = {
     'ufo-data' : {
         '.' : {
             'internal'  : 'https://github.com/jcsda-internal/ufo-data',
+            },
+        },
+    'ufs-bundle' : {
+        '.' : {
+            'jcsda'  : 'https://github.com/jcsda/ufs-bundle',
+            'dom'  : 'https://github.com/climbfuji/ufs-bundle',
             },
         },
     'vader' : {
